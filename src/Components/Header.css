@@ -1,0 +1,18 @@
+li {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+a.active {
+    font-size: 2rem;
+    background: -webkit-linear-gradient(#00d5ff, #0800ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
