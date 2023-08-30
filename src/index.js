@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Vejr from './Pages/Vejr';
-import Rader from './Pages/Rader';
+import Radar from './Pages/Radar';
 import ErrorBoundary from './Error';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
@@ -13,7 +13,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Vejr />} />
-      <Route path='/rader' element={<Rader />}/>
+      <Route path='/radar' element={<Radar />}/>
     </Route>
   )
 )

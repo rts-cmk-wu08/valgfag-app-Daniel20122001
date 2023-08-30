@@ -3,13 +3,13 @@ import "./Header.css"
 
 const Header = () => {
     return ( 
-    <div className="background">
+    <div className="Header_bg">
         <header>
             <nav>
                 <ul>
                     <li>
                         <NavLink to="/">Vejr</NavLink>
-                        <NavLink to="/rader">Rader</NavLink>
+                        <NavLink to="/radar">Radar</NavLink>
                     </li>
                 </ul>
             </nav>
