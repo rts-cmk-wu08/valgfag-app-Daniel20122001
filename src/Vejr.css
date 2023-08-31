@@ -13,6 +13,10 @@ h1.weather::first-letter {
   text-transform: capitalize;
 }
 
+.city {
+  margin-top: 2rem;
+}
+
 .city, 
 .temp {
   font-size: 3rem;

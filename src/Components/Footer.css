@@ -1,4 +1,10 @@
-.Footer_bg {
+@media (min-width: 730px) {
+    .Footer_container {
+        display: none;
+    }
+}
+
+.Footer_container {
     background-color: rgba(0, 0, 0, 0.75);
     padding: 2rem;
     border-top-right-radius: 12px;
@@ -11,14 +17,24 @@ li {
     list-style-type: none;
 }
 
-a {
+.navLinkFooter {
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
+    transition: transform 0.2s;
 }
 
-a.active {
-    background: -webkit-linear-gradient(rgb(0, 175, 255), hsl(0, 100%, 100%));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+.navLinkFooter:hover {
+    transform: scale(1.1);
+}
+
+.Footer_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLinkFooter.active {
+    color: #f87318
+
+}

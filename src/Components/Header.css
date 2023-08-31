@@ -1,6 +1,12 @@
-.Header_bg {
-    background-color: rgba(0, 0, 0, 0.75);
-    padding: 1rem;
+@media (max-width: 730px) {
+    .Header_container {
+        display: none;
+    }
+}
+
+.Header_container {
+    background-color: rgba(0, 0, 0, 0.749);
+    padding: 0.5rem;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
 }
@@ -11,14 +17,18 @@ li {
     list-style-type: none;
 }
 
-a {
+.navLinkHeader {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: white;
+    padding: 1rem;
+    transition: transform 0.2s;
 }
 
-a.active {
-    background: -webkit-linear-gradient(rgb(0, 175, 255), hsl(0, 0%, 100%));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+.navLinkHeader:hover {
+    transform: scale(1.1);
+}
+
+.navLinkHeader.active {
+    color: #f87318
+}

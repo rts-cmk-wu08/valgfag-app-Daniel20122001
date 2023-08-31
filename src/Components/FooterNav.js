@@ -5,13 +5,13 @@ import "./Footer.css"
 
 const Footer = () => {
     return (
-    <div className="Footer_bg">
+    <div className="Footer_container">
         <footer>
             <nav>
                 <ul>
                     <li>
-                        <NavLink to="/"><TiWeatherPartlySunny /></NavLink>
-                        <NavLink to="/radar"><GiRadarDish /></NavLink>
+                        <NavLink className="navLinkFooter" to="/"><TiWeatherPartlySunny className="Footer_icon" /></NavLink>
+                        <NavLink className="navLinkFooter" to="/radar"><GiRadarDish className="Footer_icon" /></NavLink>
                     </li>
                 </ul>
             </nav>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./Error.css"
 
 class ErrorBoundary extends Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class ErrorBoundary extends Component {
   render() {
     if (this.state.hasError) {
       // You can render a custom error UI here
-      return <h1 style={{color: "red", textAlign: "center"}}>Upsedasse, noget gik galt :/</h1>
+      return <h1 className="Error_text">Upsedasse, noget gik galt :/</h1>
     }
 
     return this.props.children;
