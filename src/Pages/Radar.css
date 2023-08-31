@@ -1,5 +1,20 @@
 @media only screen and (max-width: 730px) {
-    .bg_img {
+    .radar_wrapper {
       padding: 2rem 0;
     }
+
+     {
+      height: 6rem;
+    }
   }
+
+.MapBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div, Map {
+  border-radius: 12px;
+}

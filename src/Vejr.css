@@ -1,3 +1,13 @@
+.vejr_wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
 .input {
   background-color: rgba(255, 255, 255, 0.75);
 }
@@ -47,7 +57,7 @@ h1.weather::first-letter {
 }
 
 @media only screen and (max-width: 730px) {
-  .bg_img {
+  .vejr_wrapper {
     padding: 2rem 0;
   }
 

@@ -37,7 +37,7 @@ function Vejr() {
   }
 
   return (
-    <div className="bg_img">
+    <div className="vejr_wrapper">
       {!loading ? (
         <>
           <TextField 
