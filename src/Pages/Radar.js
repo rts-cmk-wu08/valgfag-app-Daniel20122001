@@ -13,9 +13,8 @@ const Radar = () => {
                     <Map
                         mapLib={import("mapbox-gl")}
                         mapboxAccessToken={process.env.REACT_APP_MAPBOX}
-                        style={{width: "50vw", height: "50vh"}}
                         mapStyle="mapbox://styles/mapbox/streets-v9"
-                        initialVeiwState={{
+                        initialViewState={{
                             latitude: 55.264621114433254,
                             longitude: 12.409809180550809,
                             zoom: 16
@@ -26,7 +25,7 @@ const Radar = () => {
                         <GeolocateControl 
                             trackUserLocation={true}
                             positionOptions={{ enableHighAccuracy: true}}
-                            showAccuracyCicle={true}
+                            showAccuracyCircle={true}
                             auto
                         />
                     </Map>

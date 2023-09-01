@@ -6,7 +6,10 @@
 
 .Footer_container {
     background-color: rgba(0, 0, 0, 0.75);
-    padding: 2rem;
+    padding: 1.5rem;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
 }
 
 li {
@@ -17,7 +20,7 @@ li {
 
 .navLinkFooter {
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 3rem;
     color: white;
     transition: transform 0.2s;
 }

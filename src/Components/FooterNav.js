@@ -1,7 +1,7 @@
 import { TiWeatherPartlySunny } from "react-icons/ti"
 import { GiRadarDish } from "react-icons/gi"
 import { NavLink } from "react-router-dom";
-import "./Footer.css"
+import "./FooterNav.css"
 
 const Footer = () => {
     return (

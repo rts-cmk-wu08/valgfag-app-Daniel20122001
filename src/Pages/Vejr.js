@@ -40,7 +40,7 @@ function Vejr() {
     <div className="vejr_wrapper">
       {!loading ? (
         <>
-          <TextField 
+          <TextField
             variant="filled" 
             label="Søg lokation" 
             className="input"

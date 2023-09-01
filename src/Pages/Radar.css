@@ -2,19 +2,25 @@
     .radar_wrapper {
       padding: 2rem 0;
     }
-
-     {
-      height: 6rem;
-    }
   }
 
-.MapBox {
+.radar_wrapper {
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-div, Map {
+.MapBox {
+  height: 50vh;
+  width: 75vw;
+}
+
+.mapboxgl-canvas {
   border-radius: 12px;
+}
+
+.mapboxgl-ctrl-attrib {
+  border-bottom-right-radius: 12px;
 }
